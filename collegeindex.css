@@ -1,0 +1,2963 @@
+.inceptor {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .more-vertical-shape {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.563rem 0 0;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-secular-one);
+  }
+  .filter-text-child {
+    height: 1.25rem;
+    width: 9.375rem;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  .search {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .filter-text,
+  .rectangle-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .filter-text {
+    align-self: stretch;
+    height: 1.25rem;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    flex-direction: row;
+    padding: 0 var(--padding-10xs) var(--padding-6xs);
+  }
+  .rectangle-frame {
+    height: 1.625rem;
+    width: 10.688rem;
+    flex-direction: column;
+    padding: 0 var(--padding-2xl) 0 0;
+    font-size: 0.938rem;
+    color: var(--color-black);
+  }
+  .home {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .frame-group-with-community-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+  }
+  .about {
+    width: 5.688rem;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .about,
+  .career,
+  .colleges {
+    height: 2.25rem;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .career {
+    width: 6.375rem;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .colleges {
+    width: 8.25rem;
+  }
+  .colleges,
+  .community,
+  .courses {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .courses {
+    width: 7.813rem;
+    display: inline-block;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .community {
+    align-self: stretch;
+    flex: 1;
+  }
+  .future-scope-frame {
+    height: 2.625rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .contact {
+    flex: 1;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .personcircle {
+    height: 2.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .person-circle-icon {
+    height: 3.125rem;
+    width: 3.125rem;
+    position: relative;
+    z-index: 1;
+  }
+  .more-vertical-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+  }
+  .frame-with-various-exams {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .procedures-eligibility-frame {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .community-contact-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .education-institutes {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .getstartedframe {
+    height: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-50xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-child {
+    height: 2.813rem;
+    width: 33.188rem;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    display: none;
+    max-width: 100%;
+  }
+  .search1 {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .rectangle-parent {
+    flex: 1;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem var(--padding-mid);
+    box-sizing: border-box;
+    min-width: 5.375rem;
+    max-width: 100%;
+  }
+  .chevron-circle-down-icon,
+  .filter-frame {
+    position: absolute;
+    margin: 0 !important;
+    left: 0;
+  }
+  .filter-frame {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #24c9f9, #c8f233);
+    cursor: pointer;
+  }
+  .chevron-circle-down-icon {
+    height: 2.781rem;
+    width: 3.313rem;
+    top: -2.437rem;
+    z-index: 1;
+  }
+  .filter {
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-inter);
+    color: var(--color-gray);
+    text-align: left;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .filter-frame-parent,
+  .frame-with-chevron-down {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .filter-frame-parent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-20xl) 1.188rem var(--padding-11xs) 1.813rem;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .exams-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 2.688rem;
+    max-width: 100%;
+    font-size: var(--font-size-6xl);
+    color: var(--color-gray);
+  }
+  .emailaddressframe,
+  .line-separator {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .emailaddressframe {
+    width: 42.875rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.563rem 0;
+  }
+  .line-separator {
+    width: 48.313rem;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .home-frame,
+  .search-frame {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .home-frame {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem 0;
+  }
+  .search-frame {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-7xs) var(--padding-20xl) 1.688rem;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .macbook-air-49-child {
+    width: 0.063rem;
+    height: 12.069rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 5.181rem;
+    left: 32.25rem;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  .know-the-right,
+  .what-to-do {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .what-to-do {
+    width: 15.375rem;
+    font-weight: 600;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .know-the-right {
+    font-weight: 400;
+    z-index: 1;
+  }
+  .group-with-ready-to-get-starte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .learn-more-inceptor-child {
+    height: 4.625rem;
+    width: 14.688rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #f8fd16, #e2e700);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .learn-more {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-11xl);
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 3;
+  }
+  .learn-more-inceptor,
+  .what-to-do-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .learn-more-inceptor {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) 1.375rem 2rem 2.063rem;
+    background-color: transparent;
+    height: 4.625rem;
+    flex: 1;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #f8fd16, #e2e700);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .what-to-do-group {
+    width: 16.813rem;
+    justify-content: flex-start;
+    padding: 0 var(--padding-mid);
+  }
+  .group-with-ready-to-get-starte-parent,
+  .procedures-and-eligibility-fra {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .group-with-ready-to-get-starte-parent {
+    flex-direction: column;
+    gap: 4rem 0;
+  }
+  .procedures-and-eligibility-fra {
+    flex-direction: row;
+    padding: 0 1.125rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .colleges-group-child {
+    position: absolute;
+    top: -0.006rem;
+    left: 0;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .institutes-i-n-d-i-a-abroad-gr {
+    position: absolute;
+    width: calc(100% - 11px);
+    top: 1.05rem;
+    right: 0.388rem;
+    left: 0.3rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group {
+    width: 17.875rem;
+    height: 22.25rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -12.75rem;
+    left: -3.25rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .in-india,
+  .institutes {
+    margin: 0;
+  }
+  .institutes-in-india-container {
+    margin: 0;
+    align-self: stretch;
+    height: 2.625rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .i-n-c-e-p-t-o-r {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .mac-book-air-search-frame {
+    width: 19.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5.938rem 0 0;
+    box-sizing: border-box;
+    min-width: 19.375rem;
+  }
+  .colleges-group-item {
+    top: 0;
+    left: -0.025rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .colleges-group-item,
+  .colleges-group1,
+  .various-exams-frame {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .various-exams-frame {
+    width: calc(100% - 11px);
+    top: 0.944rem;
+    right: 0.419rem;
+    left: 0.269rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group1 {
+    width: 17.875rem;
+    height: 22.25rem;
+    margin: 0 !important;
+    top: -15.937rem;
+    left: -1.437rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .search-group,
+  .various-exams {
+    align-self: stretch;
+    position: relative;
+  }
+  .various-exams {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .search-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mac-book-air-frame1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 14.188rem;
+    min-height: 6.375rem;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .community-frame-child,
+  .frame-item {
+    position: relative;
+    border-radius: var(--br-31xl);
+    display: none;
+  }
+  .frame-item {
+    height: 22.256rem;
+    width: 17.844rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .community-frame-child {
+    height: 20.563rem;
+    width: 17.188rem;
+    background-color: var(--color-black);
+  }
+  .future-scope {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .community-frame,
+  .rectangle-group {
+    border-radius: var(--br-31xl);
+    display: flex;
+    flex-direction: row;
+  }
+  .community-frame {
+    align-self: stretch;
+    background-color: var(--color-black);
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--padding-21xl) 0.688rem var(--padding-21xl) 1.875rem;
+    z-index: 1;
+  }
+  .rectangle-group {
+    height: 22.25rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    padding: 0.938rem var(--padding-7xs) var(--padding-xs) var(--padding-8xs);
+    box-sizing: border-box;
+    min-width: 17.844rem;
+  }
+  .mac-book-air-frame-parent,
+  .mac-book-air-search-frame-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .mac-book-air-frame-parent {
+    flex: 1;
+    align-items: flex-end;
+    padding: var(--padding-12xs) 0 0 var(--padding-5xl);
+    gap: 1.188rem;
+    min-width: 27.563rem;
+  }
+  .mac-book-air-search-frame-parent {
+    align-self: stretch;
+    align-items: center;
+    padding: 0 var(--padding-11xs) 0 var(--padding-33xl);
+    gap: var(--gap-20xl);
+    z-index: 2;
+  }
+  .colleges-group-inner,
+  .get-started-button {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .colleges-group-inner {
+    top: 0;
+    left: -0.025rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .get-started-button {
+    width: calc(100% - 11px);
+    top: 0.944rem;
+    right: 0.419rem;
+    left: 0.269rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group2,
+  .frame-inner {
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .colleges-group2 {
+    height: 22.25rem;
+    width: 17.875rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -15.375rem;
+    left: -2.75rem;
+    border-radius: var(--br-31xl);
+  }
+  .frame-inner {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .frame-inner,
+  .rectangle-container,
+  .rectangle-div {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .rectangle-div {
+    width: calc(100% - 10.5px);
+    top: 0.888rem;
+    right: 0.356rem;
+    left: 0.3rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .rectangle-container {
+    height: 22.256rem;
+    width: 17.844rem;
+    margin: 0 !important;
+    top: -15.319rem;
+    right: -17.75rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .procedures-eligibility {
+    margin: 0;
+    height: 2.625rem;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .colleges-group-parent,
+  .frame-wrapper {
+    width: 21.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    width: 42.375rem;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -0.025rem;
+    bottom: 0;
+    align-items: flex-end;
+    padding: var(--padding-50xl) 2.75rem;
+    box-sizing: border-box;
+    min-height: 22.313rem;
+  }
+  .colleges-group-child1 {
+    top: -0.006rem;
+    left: 0;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .colleges-group-child1,
+  .colleges-group3,
+  .courses-group {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .courses-group {
+    width: calc(100% - 11px);
+    top: 1.05rem;
+    right: 0.388rem;
+    left: 0.3rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group3 {
+    height: 22.25rem;
+    width: 17.875rem;
+    margin: 0 !important;
+    top: -15.312rem;
+    left: -3.25rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .admission-counselling {
+    margin: 0;
+    height: 2.625rem;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .colleges-group-group,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .colleges-group-group {
+    width: 21.875rem;
+    align-items: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    align-items: flex-end;
+    padding: var(--padding-50xl) var(--padding-33xl);
+    box-sizing: border-box;
+    min-height: 22.313rem;
+    z-index: 2;
+  }
+  .group-of-frames,
+  .more-options-text {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .group-of-frames {
+    width: 67.563rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.875rem 0;
+  }
+  .more-options-text {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 8.438rem var(--padding-33xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .frame-child1 {
+    height: 15.625rem;
+    width: 56.25rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-khaki);
+    display: none;
+    max-width: 100%;
+  }
+  .ready-to-get {
+    margin: 0;
+    height: 2.625rem;
+    width: 15.313rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .admission-counselling-frame-child {
+    height: 4.875rem;
+    width: 34.313rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+    max-width: 100%;
+  }
+  .email-address {
+    width: 11.25rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  .exam-frame {
+    align-self: stretch;
+    width: 8.125rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #00c0fd, #faff00);
+    z-index: 4;
+  }
+  .get-started {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 1.625rem;
+    flex: 1;
+    position: relative;
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 6.75rem;
+    white-space: nowrap;
+    z-index: 5;
+    margin-left: -7.5rem;
+  }
+  .admission-counselling-frame,
+  .institutes-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .institutes-frame {
+    height: 3.313rem;
+    width: 11.875rem;
+    justify-content: flex-start;
+  }
+  .admission-counselling-frame {
+    align-self: stretch;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    padding: 0.813rem 0 var(--padding-xs) var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .frame-div,
+  .know-the-right-path-frame,
+  .terms-and-conditions-frame-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .know-the-right-path-frame {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+    min-width: 22.313rem;
+    font-size: var(--font-size-xl);
+  }
+  .frame-div,
+  .terms-and-conditions-frame-inner {
+    flex-direction: row;
+  }
+  .frame-div {
+    flex: 1;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-khaki);
+    flex-wrap: wrap;
+    padding: 5.188rem var(--padding-2xl) 5.375rem var(--padding-20xl);
+    gap: 0 2.875rem;
+    z-index: 2;
+  }
+  .terms-and-conditions-frame-inner {
+    width: 58.188rem;
+    padding: 0 1.938rem 0 0;
+  }
+  .inceptor1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .about-us,
+  .home1 {
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .home1 {
+    width: 6.188rem;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .about-us {
+    width: 9.625rem;
+    cursor: pointer;
+  }
+  .about-us,
+  .faqs,
+  .privacy-policy {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .faqs {
+    width: 5.125rem;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .privacy-policy {
+    align-self: stretch;
+    height: 1.813rem;
+    flex-shrink: 0;
+  }
+  .get-connected {
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.813rem 0;
+  }
+  .get-connected1,
+  .partnerships,
+  .testimonials {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .courses1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+    gap: 0.813rem 0;
+  }
+  .terms-and-conditions1 {
+    align-self: stretch;
+    height: 1.813rem;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .line,
+  .line-separator1 {
+    flex: 1;
+    box-sizing: border-box;
+  }
+  .line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs) 0 0;
+    gap: 0.813rem 0;
+    min-width: 9.063rem;
+  }
+  .line-separator1 {
+    width: 0.063rem;
+    position: relative;
+    border-right: 1px solid var(--color-white);
+    z-index: 2;
+  }
+  .more-vertical {
+    height: 12.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .career1 {
+    width: 7.75rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+    cursor: pointer;
+  }
+  .career1,
+  .colleges1,
+  .courses2 {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .colleges1 {
+    width: 9.75rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .courses2 {
+    cursor: pointer;
+  }
+  .career-community {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) var(--padding-8xs) 0;
+  }
+  .community1 {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 2;
+  }
+  .home-about-us,
+  .line-separator2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.813rem 0;
+  }
+  .home-about-us {
+    width: 38.688rem;
+    flex-direction: row;
+    gap: 0 1rem;
+    max-width: 100%;
+  }
+  .person-circle-icon1 {
+    height: 6.25rem;
+    width: 6.25rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -6rem;
+    left: 1.063rem;
+    z-index: 2;
+  }
+  .dashboard {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .dashboard-frame,
+  .header-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .header-frame {
+    flex-direction: row;
+    position: relative;
+  }
+  .dashboard-frame {
+    height: 4.625rem;
+    flex-direction: column;
+  }
+  .home-about-us-faqs {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .copyright-inceptor,
+  .terms-and-conditions {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .copyright-inceptor {
+    width: 57rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-inter);
+  }
+  .terms-and-conditions {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-secular-one);
+  }
+  .inceptor-text-frame,
+  .terms-and-conditions-frame {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .terms-and-conditions-frame {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem 0;
+  }
+  .inceptor-text-frame {
+    width: 78.063rem;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+  }
+  .testimonials-section-child {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .copyright-inceptor-all {
+    height: 2.625rem;
+    width: 48rem;
+    position: relative;
+    white-space: pre-wrap;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    z-index: 2;
+  }
+  .div {
+    position: relative;
+    font-family: var(--font-secular-one);
+    z-index: 3;
+    margin-left: -39rem;
+  }
+  .copyright-info,
+  .line-break {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .copyright-info {
+    flex: 1;
+    align-items: flex-end;
+  }
+  .line-break {
+    width: 51.25rem;
+    align-items: flex-start;
+    padding: 0 var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .get-started-frame,
+  .macbook-air-49,
+  .testimonials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-family: var(--font-inter);
+  }
+  .testimonials-section {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 0.375rem 0;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+  }
+  .get-started-frame,
+  .macbook-air-49 {
+    font-size: var(--font-size-16xl);
+  }
+  .get-started-frame {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 2rem 0;
+    flex-shrink: 0;
+    color: var(--color-black);
+  }
+  .macbook-air-49 {
+    flex: 1;
+    background: linear-gradient(
+      180deg,
+      #006cff,
+      #2992fe 82.39%,
+      #154158 82.4%,
+      #154058 99.7%
+    );
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 0.875rem 0 0;
+    box-sizing: border-box;
+    position: relative;
+    gap: 10.25rem 0;
+    color: var(--color-white);
+  }
+  .other {
+    margin: 0 !important;
+    width: 21.875rem;
+    position: absolute;
+    right: -4.625rem;
+    bottom: 56.688rem;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .mac-book-air-frame {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0.25rem;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1225px) {
+    .frame-with-various-exams {
+      display: none;
+    }
+    .mac-book-air-search-frame-parent {
+      padding-left: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .group-of-frames {
+      gap: 3.875rem 0;
+    }
+    .more-options-text {
+      padding-left: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .terms-and-conditions {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .mac-book-air-search-frame {
+      flex: 1;
+    }
+    .mac-book-air-search-frame-parent {
+      flex-wrap: wrap;
+    }
+    .more-options-text {
+      padding-bottom: 5.5rem;
+      box-sizing: border-box;
+    }
+    .terms-and-conditions-frame-inner {
+      max-width: calc(100% - 31px);
+    }
+    .home-about-us-faqs {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .education-institutes {
+      font-size: var(--font-size-13xl);
+    }
+    .getstartedframe {
+      padding-left: var(--padding-15xl);
+      padding-right: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+    .exams-frame {
+      gap: 0 2.688rem;
+    }
+    .home-frame {
+      gap: 3.5rem 0;
+    }
+    .institutes-in-india-container,
+    .know-the-right,
+    .various-exams,
+    .what-to-do {
+      font-size: var(--font-size-9xl);
+    }
+    .mac-book-air-frame1 {
+      min-height: auto;
+    }
+    .future-scope {
+      font-size: var(--font-size-9xl);
+    }
+    .rectangle-group {
+      flex: 1;
+    }
+    .mac-book-air-frame-parent {
+      flex-wrap: wrap;
+      min-width: 100%;
+    }
+    .mac-book-air-search-frame-parent {
+      gap: var(--gap-20xl);
+    }
+    .admission-counselling,
+    .procedures-eligibility {
+      font-size: var(--font-size-9xl);
+    }
+    .group-of-frames {
+      gap: 3.875rem 0;
+    }
+    .ready-to-get {
+      font-size: var(--font-size-9xl);
+    }
+    .admission-counselling-frame {
+      flex-wrap: wrap;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .know-the-right-path-frame {
+      min-width: 100%;
+    }
+    .inceptor1 {
+      font-size: var(--font-size-13xl);
+    }
+    .home-about-us {
+      flex-wrap: wrap;
+    }
+    .terms-and-conditions-frame {
+      gap: 2.25rem 0;
+    }
+    .copyright-inceptor-all,
+    .div {
+      font-size: var(--font-size-5xl);
+    }
+    .get-started-frame {
+      gap: 2rem 0;
+    }
+    .macbook-air-49 {
+      gap: 10.25rem 0;
+    }
+    .other {
+      font-size: var(--font-size-9xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .education-institutes {
+      font-size: var(--font-size-5xl);
+    }
+    .filter,
+    .search1 {
+      font-size: var(--font-size-xl);
+    }
+    .know-the-right,
+    .what-to-do {
+      font-size: var(--font-size-2xl);
+    }
+    .group-with-ready-to-get-starte-parent {
+      gap: 4rem 0;
+    }
+    .admission-counselling,
+    .future-scope,
+    .institutes-in-india-container,
+    .procedures-eligibility,
+    .various-exams {
+      font-size: var(--font-size-2xl);
+    }
+    .frame-parent {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .more-options-text {
+      padding-bottom: 3.563rem;
+      box-sizing: border-box;
+    }
+    .ready-to-get {
+      font-size: var(--font-size-2xl);
+    }
+    .email-address,
+    .get-started {
+      font-size: var(--font-size-base);
+    }
+    .frame-div {
+      gap: 0 2.875rem;
+    }
+    .inceptor1 {
+      font-size: var(--font-size-5xl);
+    }
+    .about-us,
+    .career1,
+    .colleges1,
+    .community1,
+    .courses2,
+    .dashboard,
+    .faqs,
+    .get-connected1,
+    .home1,
+    .partnerships,
+    .privacy-policy,
+    .terms-and-conditions1,
+    .testimonials {
+      font-size: var(--font-size-xl);
+    }
+    .copyright-inceptor-all,
+    .div {
+      font-size: var(--font-size-lg);
+    }
+    .macbook-air-49 {
+      gap: 10.25rem 0;
+    }
+    .other {
+      font-size: var(--font-size-2xl);
+    }
+  }.inceptor {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .more-vertical-shape {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.563rem 0 0;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-secular-one);
+  }
+  .filter-text-child {
+    height: 1.25rem;
+    width: 9.375rem;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  .search {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .filter-text,
+  .rectangle-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .filter-text {
+    align-self: stretch;
+    height: 1.25rem;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    flex-direction: row;
+    padding: 0 var(--padding-10xs) var(--padding-6xs);
+  }
+  .rectangle-frame {
+    height: 1.625rem;
+    width: 10.688rem;
+    flex-direction: column;
+    padding: 0 var(--padding-2xl) 0 0;
+    font-size: 0.938rem;
+    color: var(--color-black);
+  }
+  .home {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .frame-group-with-community-con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+  }
+  .about {
+    width: 5.688rem;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .about,
+  .career,
+  .colleges {
+    height: 2.25rem;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .career {
+    width: 6.375rem;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .colleges {
+    width: 8.25rem;
+  }
+  .colleges,
+  .community,
+  .courses {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .courses {
+    width: 7.813rem;
+    display: inline-block;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .community {
+    align-self: stretch;
+    flex: 1;
+  }
+  .future-scope-frame {
+    height: 2.625rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .contact {
+    flex: 1;
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .personcircle {
+    height: 2.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .person-circle-icon {
+    height: 3.125rem;
+    width: 3.125rem;
+    position: relative;
+    z-index: 1;
+  }
+  .more-vertical-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+  }
+  .frame-with-various-exams {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+  }
+  .procedures-eligibility-frame {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .community-contact-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .education-institutes {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .getstartedframe {
+    height: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-50xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-child {
+    height: 2.813rem;
+    width: 33.188rem;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    display: none;
+    max-width: 100%;
+  }
+  .search1 {
+    position: relative;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .rectangle-parent {
+    flex: 1;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem var(--padding-mid);
+    box-sizing: border-box;
+    min-width: 5.375rem;
+    max-width: 100%;
+  }
+  .chevron-circle-down-icon,
+  .filter-frame {
+    position: absolute;
+    margin: 0 !important;
+    left: 0;
+  }
+  .filter-frame {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #24c9f9, #c8f233);
+    cursor: pointer;
+  }
+  .chevron-circle-down-icon {
+    height: 2.781rem;
+    width: 3.313rem;
+    top: -2.437rem;
+    z-index: 1;
+  }
+  .filter {
+    position: relative;
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-inter);
+    color: var(--color-gray);
+    text-align: left;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .filter-frame-parent,
+  .frame-with-chevron-down {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .filter-frame-parent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-20xl) 1.188rem var(--padding-11xs) 1.813rem;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .exams-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 2.688rem;
+    max-width: 100%;
+    font-size: var(--font-size-6xl);
+    color: var(--color-gray);
+  }
+  .emailaddressframe,
+  .line-separator {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .emailaddressframe {
+    width: 42.875rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.563rem 0;
+  }
+  .line-separator {
+    width: 48.313rem;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .home-frame,
+  .search-frame {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .home-frame {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem 0;
+  }
+  .search-frame {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-7xs) var(--padding-20xl) 1.688rem;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .macbook-air-49-child {
+    width: 0.063rem;
+    height: 12.069rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 5.181rem;
+    left: 32.25rem;
+    border-right: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  .know-the-right,
+  .what-to-do {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  .what-to-do {
+    width: 15.375rem;
+    font-weight: 600;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .know-the-right {
+    font-weight: 400;
+    z-index: 1;
+  }
+  .group-with-ready-to-get-starte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .learn-more-inceptor-child {
+    height: 4.625rem;
+    width: 14.688rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #f8fd16, #e2e700);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .learn-more {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-11xl);
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 3;
+  }
+  .learn-more-inceptor,
+  .what-to-do-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .learn-more-inceptor {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) 1.375rem 2rem 2.063rem;
+    background-color: transparent;
+    height: 4.625rem;
+    flex: 1;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #f8fd16, #e2e700);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .what-to-do-group {
+    width: 16.813rem;
+    justify-content: flex-start;
+    padding: 0 var(--padding-mid);
+  }
+  .group-with-ready-to-get-starte-parent,
+  .procedures-and-eligibility-fra {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .group-with-ready-to-get-starte-parent {
+    flex-direction: column;
+    gap: 4rem 0;
+  }
+  .procedures-and-eligibility-fra {
+    flex-direction: row;
+    padding: 0 1.125rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .colleges-group-child {
+    position: absolute;
+    top: -0.006rem;
+    left: 0;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .institutes-i-n-d-i-a-abroad-gr {
+    position: absolute;
+    width: calc(100% - 11px);
+    top: 1.05rem;
+    right: 0.388rem;
+    left: 0.3rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group {
+    width: 17.875rem;
+    height: 22.25rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -12.75rem;
+    left: -3.25rem;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .in-india,
+  .institutes {
+    margin: 0;
+  }
+  .institutes-in-india-container {
+    margin: 0;
+    align-self: stretch;
+    height: 2.625rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .i-n-c-e-p-t-o-r {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .mac-book-air-search-frame {
+    width: 19.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5.938rem 0 0;
+    box-sizing: border-box;
+    min-width: 19.375rem;
+  }
+  .colleges-group-item {
+    top: 0;
+    left: -0.025rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .colleges-group-item,
+  .colleges-group1,
+  .various-exams-frame {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .various-exams-frame {
+    width: calc(100% - 11px);
+    top: 0.944rem;
+    right: 0.419rem;
+    left: 0.269rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group1 {
+    width: 17.875rem;
+    height: 22.25rem;
+    margin: 0 !important;
+    top: -15.937rem;
+    left: -1.437rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .search-group,
+  .various-exams {
+    align-self: stretch;
+    position: relative;
+  }
+  .various-exams {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .search-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mac-book-air-frame1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 14.188rem;
+    min-height: 6.375rem;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .community-frame-child,
+  .frame-item {
+    position: relative;
+    border-radius: var(--br-31xl);
+    display: none;
+  }
+  .frame-item {
+    height: 22.256rem;
+    width: 17.844rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .community-frame-child {
+    height: 20.563rem;
+    width: 17.188rem;
+    background-color: var(--color-black);
+  }
+  .future-scope {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .community-frame,
+  .rectangle-group {
+    border-radius: var(--br-31xl);
+    display: flex;
+    flex-direction: row;
+  }
+  .community-frame {
+    align-self: stretch;
+    background-color: var(--color-black);
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: var(--padding-21xl) 0.688rem var(--padding-21xl) 1.875rem;
+    z-index: 1;
+  }
+  .rectangle-group {
+    height: 22.25rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    padding: 0.938rem var(--padding-7xs) var(--padding-xs) var(--padding-8xs);
+    box-sizing: border-box;
+    min-width: 17.844rem;
+  }
+  .mac-book-air-frame-parent,
+  .mac-book-air-search-frame-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .mac-book-air-frame-parent {
+    flex: 1;
+    align-items: flex-end;
+    padding: var(--padding-12xs) 0 0 var(--padding-5xl);
+    gap: 1.188rem;
+    min-width: 27.563rem;
+  }
+  .mac-book-air-search-frame-parent {
+    align-self: stretch;
+    align-items: center;
+    padding: 0 var(--padding-11xs) 0 var(--padding-33xl);
+    gap: var(--gap-20xl);
+    z-index: 2;
+  }
+  .colleges-group-inner,
+  .get-started-button {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .colleges-group-inner {
+    top: 0;
+    left: -0.025rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .get-started-button {
+    width: calc(100% - 11px);
+    top: 0.944rem;
+    right: 0.419rem;
+    left: 0.269rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group2,
+  .frame-inner {
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .colleges-group2 {
+    height: 22.25rem;
+    width: 17.875rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -15.375rem;
+    left: -2.75rem;
+    border-radius: var(--br-31xl);
+  }
+  .frame-inner {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .frame-inner,
+  .rectangle-container,
+  .rectangle-div {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .rectangle-div {
+    width: calc(100% - 10.5px);
+    top: 0.888rem;
+    right: 0.356rem;
+    left: 0.3rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .rectangle-container {
+    height: 22.256rem;
+    width: 17.844rem;
+    margin: 0 !important;
+    top: -15.319rem;
+    right: -17.75rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .procedures-eligibility {
+    margin: 0;
+    height: 2.625rem;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .colleges-group-parent,
+  .frame-wrapper {
+    width: 21.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    width: 42.375rem;
+    margin: 0 !important;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -0.025rem;
+    bottom: 0;
+    align-items: flex-end;
+    padding: var(--padding-50xl) 2.75rem;
+    box-sizing: border-box;
+    min-height: 22.313rem;
+  }
+  .colleges-group-child1 {
+    top: -0.006rem;
+    left: 0;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .colleges-group-child1,
+  .colleges-group3,
+  .courses-group {
+    position: absolute;
+    border-radius: var(--br-31xl);
+  }
+  .courses-group {
+    width: calc(100% - 11px);
+    top: 1.05rem;
+    right: 0.388rem;
+    left: 0.3rem;
+    background-color: var(--color-black);
+    height: 20.563rem;
+    z-index: 1;
+  }
+  .colleges-group3 {
+    height: 22.25rem;
+    width: 17.875rem;
+    margin: 0 !important;
+    top: -15.312rem;
+    left: -3.25rem;
+    background-color: var(--color-gold);
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+  }
+  .admission-counselling {
+    margin: 0;
+    height: 2.625rem;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .colleges-group-group,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .colleges-group-group {
+    width: 21.875rem;
+    align-items: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    align-items: flex-end;
+    padding: var(--padding-50xl) var(--padding-33xl);
+    box-sizing: border-box;
+    min-height: 22.313rem;
+    z-index: 2;
+  }
+  .group-of-frames,
+  .more-options-text {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .group-of-frames {
+    width: 67.563rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.875rem 0;
+  }
+  .more-options-text {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 8.438rem var(--padding-33xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .frame-child1 {
+    height: 15.625rem;
+    width: 56.25rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-khaki);
+    display: none;
+    max-width: 100%;
+  }
+  .ready-to-get {
+    margin: 0;
+    height: 2.625rem;
+    width: 15.313rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .admission-counselling-frame-child {
+    height: 4.875rem;
+    width: 34.313rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    display: none;
+    max-width: 100%;
+  }
+  .email-address {
+    width: 11.25rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 4;
+  }
+  .exam-frame {
+    align-self: stretch;
+    width: 8.125rem;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(180deg, #00c0fd, #faff00);
+    z-index: 4;
+  }
+  .get-started {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-inter);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 1.625rem;
+    flex: 1;
+    position: relative;
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 6.75rem;
+    white-space: nowrap;
+    z-index: 5;
+    margin-left: -7.5rem;
+  }
+  .admission-counselling-frame,
+  .institutes-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .institutes-frame {
+    height: 3.313rem;
+    width: 11.875rem;
+    justify-content: flex-start;
+  }
+  .admission-counselling-frame {
+    align-self: stretch;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    padding: 0.813rem 0 var(--padding-xs) var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    z-index: 3;
+  }
+  .frame-div,
+  .know-the-right-path-frame,
+  .terms-and-conditions-frame-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .know-the-right-path-frame {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+    min-width: 22.313rem;
+    font-size: var(--font-size-xl);
+  }
+  .frame-div,
+  .terms-and-conditions-frame-inner {
+    flex-direction: row;
+  }
+  .frame-div {
+    flex: 1;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-khaki);
+    flex-wrap: wrap;
+    padding: 5.188rem var(--padding-2xl) 5.375rem var(--padding-20xl);
+    gap: 0 2.875rem;
+    z-index: 2;
+  }
+  .terms-and-conditions-frame-inner {
+    width: 58.188rem;
+    padding: 0 1.938rem 0 0;
+  }
+  .inceptor1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .about-us,
+  .home1 {
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .home1 {
+    width: 6.188rem;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .about-us {
+    width: 9.625rem;
+    cursor: pointer;
+  }
+  .about-us,
+  .faqs,
+  .privacy-policy {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .faqs {
+    width: 5.125rem;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .privacy-policy {
+    align-self: stretch;
+    height: 1.813rem;
+    flex-shrink: 0;
+  }
+  .get-connected {
+    width: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.813rem 0;
+  }
+  .get-connected1,
+  .partnerships,
+  .testimonials {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .courses1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+    gap: 0.813rem 0;
+  }
+  .terms-and-conditions1 {
+    align-self: stretch;
+    height: 1.813rem;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .line,
+  .line-separator1 {
+    flex: 1;
+    box-sizing: border-box;
+  }
+  .line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs) 0 0;
+    gap: 0.813rem 0;
+    min-width: 9.063rem;
+  }
+  .line-separator1 {
+    width: 0.063rem;
+    position: relative;
+    border-right: 1px solid var(--color-white);
+    z-index: 2;
+  }
+  .more-vertical {
+    height: 12.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+  }
+  .career1 {
+    width: 7.75rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+    cursor: pointer;
+  }
+  .career1,
+  .colleges1,
+  .courses2 {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+  }
+  .colleges1 {
+    width: 9.75rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .courses2 {
+    cursor: pointer;
+  }
+  .career-community {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) var(--padding-8xs) 0;
+  }
+  .community1 {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 2;
+  }
+  .home-about-us,
+  .line-separator2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.813rem 0;
+  }
+  .home-about-us {
+    width: 38.688rem;
+    flex-direction: row;
+    gap: 0 1rem;
+    max-width: 100%;
+  }
+  .person-circle-icon1 {
+    height: 6.25rem;
+    width: 6.25rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -6rem;
+    left: 1.063rem;
+    z-index: 2;
+  }
+  .dashboard {
+    position: relative;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .dashboard-frame,
+  .header-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .header-frame {
+    flex-direction: row;
+    position: relative;
+  }
+  .dashboard-frame {
+    height: 4.625rem;
+    flex-direction: column;
+  }
+  .home-about-us-faqs {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .copyright-inceptor,
+  .terms-and-conditions {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .copyright-inceptor {
+    width: 57rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-inter);
+  }
+  .terms-and-conditions {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-secular-one);
+  }
+  .inceptor-text-frame,
+  .terms-and-conditions-frame {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .terms-and-conditions-frame {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem 0;
+  }
+  .inceptor-text-frame {
+    width: 78.063rem;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-base);
+    box-sizing: border-box;
+  }
+  .testimonials-section-child {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .copyright-inceptor-all {
+    height: 2.625rem;
+    width: 48rem;
+    position: relative;
+    white-space: pre-wrap;
+    display: inline-block;
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    z-index: 2;
+  }
+  .div {
+    position: relative;
+    font-family: var(--font-secular-one);
+    z-index: 3;
+    margin-left: -39rem;
+  }
+  .copyright-info,
+  .line-break {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .copyright-info {
+    flex: 1;
+    align-items: flex-end;
+  }
+  .line-break {
+    width: 51.25rem;
+    align-items: flex-start;
+    padding: 0 var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .get-started-frame,
+  .macbook-air-49,
+  .testimonials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-family: var(--font-inter);
+  }
+  .testimonials-section {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 0.375rem 0;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+  }
+  .get-started-frame,
+  .macbook-air-49 {
+    font-size: var(--font-size-16xl);
+  }
+  .get-started-frame {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 2rem 0;
+    flex-shrink: 0;
+    color: var(--color-black);
+  }
+  .macbook-air-49 {
+    flex: 1;
+    background: linear-gradient(
+      180deg,
+      #006cff,
+      #2992fe 82.39%,
+      #154158 82.4%,
+      #154058 99.7%
+    );
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 0.875rem 0 0;
+    box-sizing: border-box;
+    position: relative;
+    gap: 10.25rem 0;
+    color: var(--color-white);
+  }
+  .other {
+    margin: 0 !important;
+    width: 21.875rem;
+    position: absolute;
+    right: -4.625rem;
+    bottom: 56.688rem;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+  }
+  .mac-book-air-frame {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0.25rem;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1225px) {
+    .frame-with-various-exams {
+      display: none;
+    }
+    .mac-book-air-search-frame-parent {
+      padding-left: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .group-of-frames {
+      gap: 3.875rem 0;
+    }
+    .more-options-text {
+      padding-left: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .terms-and-conditions {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .mac-book-air-search-frame {
+      flex: 1;
+    }
+    .mac-book-air-search-frame-parent {
+      flex-wrap: wrap;
+    }
+    .more-options-text {
+      padding-bottom: 5.5rem;
+      box-sizing: border-box;
+    }
+    .terms-and-conditions-frame-inner {
+      max-width: calc(100% - 31px);
+    }
+    .home-about-us-faqs {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .education-institutes {
+      font-size: var(--font-size-13xl);
+    }
+    .getstartedframe {
+      padding-left: var(--padding-15xl);
+      padding-right: var(--padding-15xl);
+      box-sizing: border-box;
+    }
+    .exams-frame {
+      gap: 0 2.688rem;
+    }
+    .home-frame {
+      gap: 3.5rem 0;
+    }
+    .institutes-in-india-container,
+    .know-the-right,
+    .various-exams,
+    .what-to-do {
+      font-size: var(--font-size-9xl);
+    }
+    .mac-book-air-frame1 {
+      min-height: auto;
+    }
+    .future-scope {
+      font-size: var(--font-size-9xl);
+    }
+    .rectangle-group {
+      flex: 1;
+    }
+    .mac-book-air-frame-parent {
+      flex-wrap: wrap;
+      min-width: 100%;
+    }
+    .mac-book-air-search-frame-parent {
+      gap: var(--gap-20xl);
+    }
+    .admission-counselling,
+    .procedures-eligibility {
+      font-size: var(--font-size-9xl);
+    }
+    .group-of-frames {
+      gap: 3.875rem 0;
+    }
+    .ready-to-get {
+      font-size: var(--font-size-9xl);
+    }
+    .admission-counselling-frame {
+      flex-wrap: wrap;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .know-the-right-path-frame {
+      min-width: 100%;
+    }
+    .inceptor1 {
+      font-size: var(--font-size-13xl);
+    }
+    .home-about-us {
+      flex-wrap: wrap;
+    }
+    .terms-and-conditions-frame {
+      gap: 2.25rem 0;
+    }
+    .copyright-inceptor-all,
+    .div {
+      font-size: var(--font-size-5xl);
+    }
+    .get-started-frame {
+      gap: 2rem 0;
+    }
+    .macbook-air-49 {
+      gap: 10.25rem 0;
+    }
+    .other {
+      font-size: var(--font-size-9xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .education-institutes {
+      font-size: var(--font-size-5xl);
+    }
+    .filter,
+    .search1 {
+      font-size: var(--font-size-xl);
+    }
+    .know-the-right,
+    .what-to-do {
+      font-size: var(--font-size-2xl);
+    }
+    .group-with-ready-to-get-starte-parent {
+      gap: 4rem 0;
+    }
+    .admission-counselling,
+    .future-scope,
+    .institutes-in-india-container,
+    .procedures-eligibility,
+    .various-exams {
+      font-size: var(--font-size-2xl);
+    }
+    .frame-parent {
+      padding-left: var(--padding-7xl);
+      padding-right: var(--padding-7xl);
+      box-sizing: border-box;
+    }
+    .more-options-text {
+      padding-bottom: 3.563rem;
+      box-sizing: border-box;
+    }
+    .ready-to-get {
+      font-size: var(--font-size-2xl);
+    }
+    .email-address,
+    .get-started {
+      font-size: var(--font-size-base);
+    }
+    .frame-div {
+      gap: 0 2.875rem;
+    }
+    .inceptor1 {
+      font-size: var(--font-size-5xl);
+    }
+    .about-us,
+    .career1,
+    .colleges1,
+    .community1,
+    .courses2,
+    .dashboard,
+    .faqs,
+    .get-connected1,
+    .home1,
+    .partnerships,
+    .privacy-policy,
+    .terms-and-conditions1,
+    .testimonials {
+      font-size: var(--font-size-xl);
+    }
+    .copyright-inceptor-all,
+    .div {
+      font-size: var(--font-size-lg);
+    }
+    .macbook-air-49 {
+      gap: 10.25rem 0;
+    }
+    .other {
+      font-size: var(--font-size-2xl);
+    }
+  }
